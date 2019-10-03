@@ -31,18 +31,14 @@ nmake
 ```
 
 ## Convert
-
-Put the execuatable file in your qmc file directory, Then run the execuatable file.
-
-For windows user, Just click the decoder.exe when you put the decoder.exe into your qmc file directory, It will convert all qmc file automatically.
-
-![eXlSt1.gif](https://s2.ax1x.com/2019/08/10/eXlSt1.gif)
-
-For mac user, Can click the decoder.command file, But you need copy the decoder.command file in your qmc file directory too.
-
-![EjHn9U.gif](https://s2.ax1x.com/2019/05/19/EjHn9U.gif)
-
-
+```
+Usage: decoder [-o] [-r] (-M|-F) -f [<file> ...]
+    -o: override exist output files.
+    -r: recursively scan directories for matching files.
+    -M: matching QMC3/QMC0 files
+    -F: matching QMCFLAC files
+    -f: directories/files to decode
+```
 
 * Todo
 
